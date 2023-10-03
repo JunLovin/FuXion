@@ -1,0 +1,60 @@
+:root {
+    --color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.introP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://fuxion.com/upload/images/banner/2017/01/17/ab29aaa5f16ffbe7.png);
+    filter: blur(1px);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.introP  h1 {
+    filter: none;
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 9px;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 5em;
+}
+
+.h2 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.img-responsive {
+    max-width: 150px;
+    height: auto;
+    position: relative;
+    top: 40px;
+    left: 290px;
+}
+
+.p-1 {
+    width: 500px;
+    text-align: left;
+    margin-left: 500px;
+    position: relative;
+    bottom: 85px;
+    border-left: 1px solid gray;
+    color: #777;
+}
