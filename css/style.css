@@ -1,5 +1,5 @@
 :root {
-    --color: white;
+    --color: #777;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 
 .introP  h1 {
     filter: none;
-    color: var(--color);
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     letter-spacing: 9px;
@@ -33,10 +33,14 @@ body {
     font-size: 5em;
 }
 
+.container {
+    position: relative;
+}
+
 .h2 {
     position: relative;
-    top: 40px;
-    left: 40px;
+    top: 60px;
+    left: 42px;
     text-align: center;
     color: #fff;
 }
@@ -50,11 +54,14 @@ body {
 }
 
 .p-1 {
+    margin: auto;
+    padding: 10px;
     width: 500px;
     text-align: left;
     margin-left: 500px;
     position: relative;
     bottom: 85px;
-    border-left: 1px solid gray;
-    color: #777;
+    border-left: 1px solid var(--color);
+    color: var(--color);
+    font-size: 15px;
 }
