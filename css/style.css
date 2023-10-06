@@ -20,11 +20,9 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
 }
 
 .introP  h1 {
-    filter: none;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -64,4 +62,27 @@ body {
     border-left: 1px solid var(--color);
     color: var(--color);
     font-size: 15px;
+}
+
+.introS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    filter: blur(1px);
+    background-image: url(https://fuxion.com/upload/images/section/2017/01/16/68423568e789b481.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.introS h1 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 5em;
+    letter-spacing: 9px;
+    -webkit-text-stroke: 1px solid #fff;
 }

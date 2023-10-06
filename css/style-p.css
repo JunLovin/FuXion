@@ -109,3 +109,39 @@ body {
     font-size: 1.5em;
     -webkit-text-stroke: 1px solid white;
 }
+
+.secondContainer {
+    position: relative;
+    color: var(--color);
+}
+
+.moreT {
+    display: none;
+}
+
+.third {
+    position: relative;
+    top: 170px;
+    left: 350px;
+    width: 150px;
+    height: 120px;
+}
+
+.thirdP {
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    border-left: 1px solid var(--color);
+}
+
+.readMBtn {
+    position: relative;
+    top: 60px;
+    left: 590px;
+    border: none;
+    color: var(--color);
+}
