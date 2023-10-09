@@ -1,3 +1,7 @@
+:root {
+    --color: #777;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,4 +14,14 @@ body {
     background-position: 50% 50%;
     width: 100%;
     height: 56vh;
+}
+
+.container {
+    position: relative;
+    color: var(--color);
+    margin-top: 30px;
+}
+
+.globo {
+    display: table;
 }
