@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.intro {
+    background-image: url(https://fuxion.com/static/web/dist/images/contacto/section-1.jpg);
+    background-position: 50% 50%;
+    width: 100%;
+    height: 56vh;
+}
