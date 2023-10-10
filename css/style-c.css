@@ -25,3 +25,15 @@ body {
 .globo {
     display: table;
 }
+
+.fuxionpais {
+    padding-bottom: 10px;
+}
+
+.flag {
+    position: relative;
+    left: 400px;
+    bottom: 220px;
+    padding: 10px;
+    cursor: pointer;
+}
