@@ -36,4 +36,9 @@ body {
     bottom: 220px;
     padding: 10px;
     cursor: pointer;
+    transition: .1s;
+}
+
+.flag:active {
+    transform: translateY(-5%);
 }
