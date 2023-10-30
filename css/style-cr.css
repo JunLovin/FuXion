@@ -29,7 +29,8 @@ body {
 .fa-github:active {
     animation-name: resize;
     animation-duration: 1s;
-    animation-iteration-count: linear 1;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
 
 .container h1 {
