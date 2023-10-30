@@ -23,7 +23,7 @@ body {
     background-size: cover;
 }
 
-.introP  h1 {
+.introP h1 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -32,30 +32,21 @@ body {
     font-size: 5em;
 }
 
-.h2 {
-    position: relative;
-    top: 60px;
-    left: 42px;
+.h2, .header2, .h2-3, .h2-4 {
     text-align: center;
-    color: #fff;
+    margin-top: 60px;  /* Adjusted from position and top properties to margin */
 }
 
-.img-responsive {
-    max-width: 150px;
-    height: auto;
-    position: relative;
-    top: 40px;
-    left: 290px;
+.img-responsive, .img-responsive2, .img-responsive3, .img-responsive4 {
+    display: block;  /* Center the images */
+    margin: 40px auto 0 auto;  /* Adjusted from position and left properties to margin */
 }
 
-.p-1 {
-    margin: auto;
-    padding: 10px;
+.p-1, .p-3, .p-4 {
+    margin: 0 auto;  /* Adjusted from margin-left and position properties to margin */
+    text-align: center;  /* Center the text */
     max-width: 500px;
-    text-align: left;
-    margin-left: 500px;
-    position: relative;
-    bottom: 85px;
+    padding: 10px;
     border-left: 1px solid var(--color);
     color: var(--color);
     font-size: 15px;
@@ -84,158 +75,16 @@ body {
     -webkit-text-stroke: 1px solid #fff;
 }
 
-.secondContainer {
-    position: relative;
-}
-
-.header2 {
-    color: var(--color);
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    top: 60px;
-    right: 35px;
-    position: relative;
-    text-align: center;
-}
-
-.img-responsive2 {
-    width: 150px;
-    height: auto;
-    position: relative;
-    top: 20px;          
-    left: 290px;
-}
-
-.introT {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url(https://fuxion.com/upload/images/section/2017/01/16/bd1de0552e3cebec.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: blur(1px);
-    width: 100%;
-    height: 70vh;
-}
-
-.introT h1 {
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 5em;
-    letter-spacing: 9px;
-    font-weight: bold;
-    -webkit-text-stroke: 1px solid white;
-}
-
-.thirdContainer {
-    position: relative;
-}
-
-.h2-3 {
-    color: var(--color);
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    left: 35px;
-    top: 70px;
-    position: relative;
-    text-align: center;
-}
-
-.p-3 {
-    margin: auto;
-    padding: 10px;
-    max-width: 500px;
-    text-align: left;
-    margin-left: 500px;
-    position: relative;
-    bottom: 85px;
-    border-left: 1px solid var(--color);
-    color: var(--color);
-    font-size: 15px;
-}
-
-.img-responsive3 {
-    width: 150px;
-    height: auto;
-    position: relative;
-    top: 50px;          
-    left: 290px;
-}
-
-.introF {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url(https://fuxion.com/upload/images/section/2017/01/17/85476f1e5fc4602f.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: blur(1px);
-    width: 100%;
-    height: 70vh;
-}
-
-.introF h2 {
-    color: #fff;
-    -webkit-text-stroke: 1px solid #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 5em;
-    font-weight: bold;
-    letter-spacing: 9px;
-}
-
-.fourthContainer {
-    position: relative;
+.secondContainer, .thirdContainer, .fourthContainer {
+    text-align: center;  /* Center all text and images */
 }
 
 .serF {
-    position: relative;
-    left: 520px;
-    top: 70px;
-}
-
-.h2-4 {
-    color: var(--color);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    position: relative;
-    top: 70px;
-    right: 50px;
-}
-
-.img-responsive4 {
-    width: 150px;
-    height: auto;
-    position: relative;
-    top: 40px;          
-    left: 290px;
-}
-
-.p-4 {
-    color: var(--color);
-    margin: auto;
-    padding: 10px;
-    max-width: 500px;
-    text-align: left;
-    margin-left: 500px;
-    position: relative;
-    bottom: 85px;
-    border-left: 1px solid var(--color);
-    color: var(--color);
-    font-size: 15px;
+    margin: 70px auto 0 auto;  /* Adjusted from position and left properties to margin */
 }
 
 .review {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;  /* Center all text and numbers */
     padding: 50px;
     background: #ccc;
     width: 100%;
@@ -243,37 +92,9 @@ body {
     color: #fff;
 }
 
-.review span {
-    font-size: 5em;
-    margin-left: 30px; 
-}
-
-.review p {
-    font-size: 1.5em;
-}
-
-.review .products {
-    position: relative;
-    top: 100px;
-    right: 95px;
-}
-
-.sticks {
-    position: relative;
-    top: 100px;
-    right: 235px;
-}
-
-.distribution {
-    position: relative;
-    top: 100px;
-    right: 175px;
-}
-
-.country {
-    position: relative;
-    top: 100px;
-    right: 66px;
+.review span, .review p {
+    display: block;  /* Place text and numbers on a new line */
+    margin: 0 auto;  /* Center text and numbers */
 }
 
 footer {
